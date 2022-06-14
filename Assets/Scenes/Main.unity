@@ -2843,7 +2843,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '<color=#AD2B2B>Cross</color> Drive '
+  m_Text: '<color=#AD2B2B>Car</color> Drive '
 --- !u!222 &1642768319
 CanvasRenderer:
   m_ObjectHideFlags: 0

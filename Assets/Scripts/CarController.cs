@@ -62,10 +62,10 @@ public class CarController : MonoBehaviour
         {
             string carName = raycastHit.transform.gameObject.name;
 #if UNITY_EDITOR
-            if (Input.GetMouseButtonDown(0) && !__isMovingFast && gameObject.name == carName) { 
-#else 
-            if (Input.GetTouch(0).phase == TouchPhase.Began && !_isMouseClick && gameObject.name == carName) {
-#endif       
+            if (Input.GetMouseButtonDown(0) && !__isMovingFast && gameObject.name == carName) {
+#else
+            if (Input.GetTouch(0).phase == TouchPhase.Began && !__isMovingFast && gameObject.name == carName) {
+#endif
                 speed *= 2;
                 __isMovingFast = true;
                 if (_carCrashed == false)
